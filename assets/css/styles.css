@@ -1,5 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+section.on_site {
+  background-color: #0a1316;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.on_image {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+div.on_image img {
+  width: 50%;
+  height: 50%;
+}
+
+div.on_desc {
+  text-align: center;
+}
+div.on_desc p.h4 {
+  color: #f6f6f6;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+div.on_meta {
+  margin-top: 30px;
+}
+div.on_meta ul.socials {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 0% !important;
+}
+div.on_meta ul.socials li.social {
+  margin-right: 20px;
+}
+div.on_meta ul.socials li.social a {
+  color: #f6f6f6 !important;
+}
+div.on_meta ul.socials li.social svg {
+  font-size: 25px;
+}
+div.on_meta ul.socials li.social svg:hover {
+  transform: rotate(360deg);
+  transition: 0.3s;
+}
+div.on_meta ul.socials li.social:last-child {
+  margin-right: 0px;
+}
+
+@media screen and (max-width: 450px) {
+  section.on_site {
+    height: 115vh !important;
+  }
+
+  div.on_image img {
+    width: 100% !important;
+    height: 100% !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
