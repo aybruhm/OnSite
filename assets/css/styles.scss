@@ -43,6 +43,7 @@ div.on_desc{
 
 div.on_meta{
     margin-top: 30px;
+    padding-bottom: 40px;
 
     ul.socials{
         display: flex;
@@ -84,5 +85,8 @@ div.on_meta{
             height: 100% !important;
         }
     }
-   
+    
+    div.on_meta{
+        padding-bottom: 0% !important;
+    }
 }

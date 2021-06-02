@@ -38,6 +38,7 @@ div.on_desc p.h4 {
 
 div.on_meta {
   margin-top: 30px;
+  padding-bottom: 40px;
 }
 div.on_meta ul.socials {
   display: flex;
@@ -70,5 +71,9 @@ div.on_meta ul.socials li.social:last-child {
   div.on_image img {
     width: 100% !important;
     height: 100% !important;
+  }
+
+  div.on_meta {
+    padding-bottom: 0% !important;
   }
 }/*# sourceMappingURL=styles.css.map */
